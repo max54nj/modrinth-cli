@@ -1,0 +1,11 @@
+[package]
+name = "mrlaunch"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive", "env"] }
+dirs = "6.0"
+tokio = { version = "1.48", features = ["macros", "rt-multi-thread"] }
+theseus = { git = "https://github.com/modrinth/code", package = "theseus" }
