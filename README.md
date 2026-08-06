@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project is no longer maintained as Modrinth now has a shortcut feature. 
+
 # mrlaunch
 
 Launch Modrinth App profiles from cli on Windows.
